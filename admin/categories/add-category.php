@@ -6,10 +6,10 @@ $tmp_name = $_FILES['image']['tmp_name'];
 
 // store the image to the local storage
 
-
+move_uploaded_file($tmp_name,'../src/images/' . $filename);
  
 
-$insert = "INSERT INTO categories (name,image) VALUES ('{$name}','{$image}')";
+// $insert = "INSERT INTO categories (name,image) VALUES ('{$name}','{$image}')";
 
-$result = mysqli_query($connection,$insert);
+// $result = mysqli_query($connection,$insert);
 ?>
