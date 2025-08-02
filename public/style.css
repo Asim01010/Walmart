@@ -1,0 +1,18 @@
+.card {
+  border: none;
+}
+img {
+  border-radius: 12px;
+}
+.text-sm {
+  font-size: 0.7rem !important;
+}
+.black-50 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.custom-placeholder::placeholder {
+  color: #6c757d; /* Bootstrap's secondary text color */
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0 0 0 30px;
+}
